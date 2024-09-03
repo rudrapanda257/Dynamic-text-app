@@ -1,0 +1,61 @@
+.config-panel {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .add-text-button {
+    position: 'relative';
+    width: '100%';
+    height: '200%';
+  
+    cursor: 'Pointer'; 
+    display: 'flex';
+    color: rgb(234, 227, 227); 
+    
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #0ebb13;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+  }
+  
+  .add-text-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #4CAF50;
+  }
